@@ -1,0 +1,29 @@
+table, tr, td
+{
+    border: 2px solid black;
+}
+table
+{
+    margin: auto;
+}
+td
+{
+    height: 50px;
+    width: 50px;
+    font-size: 20pt;
+    position: relative;
+}
+#yellow
+{
+    background-color: lightyellow !important;
+}
+.btn
+{
+    font-size: 15pt;
+}
+.header
+{
+    margin-top: 15%;
+    display: inline-flex;
+    align-items: flex-end;
+}
