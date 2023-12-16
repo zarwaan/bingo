@@ -12,7 +12,6 @@ function generateAndCheck()
 }
 function generateRandomNumber()
 {
-    // var x = Math.floor((Math.random() * 75) + 1);
     pressed++;
     generateAndCheck(x);
     var previd = id;
