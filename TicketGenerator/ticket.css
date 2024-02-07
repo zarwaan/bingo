@@ -3,7 +3,7 @@ body
     text-align: center;
     display: flex ;
     justify-content: center ;
-    margin-top: 10% ;
+    margin-top: 10%;
 }
 .ticket, tr, td 
 {
@@ -18,10 +18,25 @@ td
     height: 90px;
     width: 90px;
     font-size: 35pt;
+    position: relative;
+    cursor: pointer;
 }
 #tubelight
 {
-    height: inherit;
-    width: inherit;
+    height: 100%;
+    width: 100%;
     border-radius: 50%;
+}
+#circle
+{
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+td div
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
